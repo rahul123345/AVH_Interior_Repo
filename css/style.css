@@ -1238,7 +1238,7 @@ label.error{
 
 .slide-title{
   font-family: 'Oswald', sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   letter-spacing: 0.32em;
   text-transform: uppercase;
 }
@@ -1246,7 +1246,16 @@ label.error{
 .slide-subtitle{
   font-size: 18px;
   line-height: 1.7;
-  color: #100d28;
+  color: fff;
+}
+.slide-subtitle1{
+  padding-top: 60px !important;
+}
+.slide-subtitle2{
+  padding-top: 15px !important;
+}
+.slide-subtitle3{
+  padding-top: 60px !important;
 }
 
 
@@ -1267,7 +1276,7 @@ label.error{
 }
 
 .entry-title{
-  font-size: 3.6em;
+  font-size: 3.4em;
   margin:0 0 1em;
 }
 
@@ -2635,6 +2644,7 @@ img.mfp-img{
 /* .service{
 
 } */
+ 
 
 }
 
