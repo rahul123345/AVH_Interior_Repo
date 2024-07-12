@@ -1,4 +1,4 @@
-var mapLocation = new google.maps.LatLng(-37.823534, 144.975617); //change coordinates here
+var mapLocation = new google.maps.LatLng(17.4478841,78.3841178); //change coordinates here
 var marker;
 var map;
 
@@ -184,7 +184,7 @@ function initialize() {
     var contentString = '<div class="map-info">' 
     + '<div class="map-title">' 
     + '<h3>go<span class="text-primary">.</span>arch</h3></div>' 
-    + '<div class="map-address-row"><i class="fa fa-map-marker"></i><span class="text">USA, New York<br> 648 Ivah Street Apt. 375</span></div><div class="map-address-row"><i class="fa fa-phone"></i><span class="text">+0 543 554 44-25</span></div><div class="map-address-row"><span class="map-email"><i class="fa fa-envelope"></i><span class="text">go.arch@mail.com</span></span>' 
+    + '<div class="map-address-row"><i class="fa fa-map-marker"></i><span class="text">high spirits building<br> Madhapur,Hydearabad</span></div><div class="map-address-row"><i class="fa fa-phone"></i><span class="text">+0 543 554 44-25</span></div><div class="map-address-row"><span class="map-email"><i class="fa fa-envelope"></i><span class="text">go.arch@mail.com</span></span>' 
     + '</div>';
     
     
@@ -196,7 +196,7 @@ function initialize() {
     marker = new google.maps.Marker({
         map: map,
         draggable: true,
-        title: 'Go.arch', //change title here
+        title: 'AVH INDIA', //change title here
         animation: google.maps.Animation.DROP,
         position: mapLocation
     });

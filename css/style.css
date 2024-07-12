@@ -321,6 +321,7 @@ label.error{
   text-decoration: none;
   background-color: #c5a47e;
   border:0;
+  margin-left: 43%;
   -webkit-transition: all .3s ease-out!important;
           transition: all .3s ease-out!important;
 }
@@ -617,7 +618,7 @@ label.error{
   width: 39.47vmin;
   height: 40.7vmin;
   padding: 4.8vmin 2em 4.8vmin;
-  /* background-color: #f6f5f3; */
+  background-color: #f6f5f3;
   text-align: center;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -1237,7 +1238,7 @@ label.error{
 
 .slide-title{
   font-family: 'Oswald', sans-serif;
-  font-size: 50px;
+  font-size: 30px;
   letter-spacing: 0.32em;
   text-transform: uppercase;
 }
@@ -2625,7 +2626,15 @@ img.mfp-img{
   .sec{
     padding-top: 80px;
   }
+  /* body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+} */
+/* .service{
 
+} */
 
 }
 
