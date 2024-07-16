@@ -88,7 +88,7 @@ html{
 }
 
 body{
-  font-family: 'montserratlight', sans-serif;
+  font-family:  sans-serif;
   font-size: 1em;
   line-height: 1.65;
   color: #747474;
@@ -511,7 +511,7 @@ label.error{
 }
 
 .text-primary{
-  color:#c5a47e;
+  color: #00699e;
 }
 
 .page-lines{
@@ -548,6 +548,7 @@ label.error{
 .col-base{
   margin-top: 3em;
 }
+
 
 .section{
   position: relative;
@@ -726,6 +727,12 @@ label.error{
 .vertical-panel{
   z-index: 3;
   height: 10000px;
+  background-color: #f6f5f3
+  
+}
+.vertical-panel1{
+  z-index: 3;
+  height: 500px;
   background-color: #f6f5f3
   
 }
@@ -1237,25 +1244,52 @@ label.error{
 }
 
 .slide-title{
-  font-family: 'Oswald', sans-serif;
+  font-family:  sans-serif;
   font-size: 25px;
-  letter-spacing: 0.32em;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  /* font-style: Bold; */
+}
+
+
+.slide-title .line1,
+.slide-title .line2 {
+  display: block;
 }
 
 .slide-subtitle{
-  font-size: 18px;
-  line-height: 1.7;
+  font-size: 23px;
+  line-height: 1.5;
   color: fff;
+ text-align: center;
+  font-weight: 400px;
+ 
+  
+  color: #fff;
 }
 .slide-subtitle1{
   padding-top: 60px !important;
+
+  text-align: center;
+  line-height: 1.4;
+  
 }
 .slide-subtitle2{
   padding-top: 15px !important;
+  font-weight: 400px;
+  font-size: 23px;
 }
 .slide-subtitle3{
   padding-top: 60px !important;
+  font-weight: 400px;
+  font-size: 23px;
+}
+.slide-subtitle4{
+  padding-top: 100px !important;
+  font-weight: 400px;
+  font-size: 23px;
 }
 
 
@@ -1272,17 +1306,32 @@ label.error{
 }
 
 .entry{
-  margin:3.2em 0;
+  margin:1em 0;
 }
 
 .entry-title{
-  font-size: 3.4em;
+  font-size: 2.8em;
   margin:0 0 1em;
+  padding-left: 130px;
+}
+
+.entry-title1{
+  font-size: 2.8em;
+  margin:0 0 1em;
+  padding-left: 130px;
+  color: #00699e;
+}
+.ent{
+  padding-left: 30px;
 }
 
 .entry-text{
-  font-size: 1.6em;
+  font-size: 1.2em;
   line-height: 1.6;
+}
+.entry-text1{
+  line-height: 1;
+  font-size: 1.2em;
 }
 
 .about .fade-title-left{
@@ -1319,7 +1368,7 @@ label.error{
 }
 
 .col-service{
-  padding: 0 4.1em;
+  padding: 0 2.1em;
 }
 
 .service-item{
@@ -2593,6 +2642,7 @@ img.mfp-img{
 
   .main-header{
     padding-left: 0;
+    font-weight: 300;
   }
 
 
@@ -2644,6 +2694,9 @@ img.mfp-img{
 /* .service{
 
 } */
+
+
+
  
 
 }
