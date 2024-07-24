@@ -303,6 +303,9 @@ label.error{
 
 
 
+
+
+
 /* 1.4 Buttons */
 
 
@@ -511,7 +514,7 @@ label.error{
 }
 
 .text-primary{
-  color: #c5a47e;
+  color: #00699e;
 }
 
 .page-lines{
@@ -804,9 +807,6 @@ label.error{
   display: none;
   position: absolute;
   z-index: 2;
-  background-color: #3d3d3d;
-  opacity: 0.8;
-
   top:0;
   left:0;
   width: 100%;
@@ -828,7 +828,7 @@ label.error{
   font-size: 0.81em;
   letter-spacing: 0.32em;
   text-transform: uppercase;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   
 }
 
@@ -855,7 +855,7 @@ label.error{
 }
 
 .navbar-desctop-menu > li > a{
-  color: #fff;
+  color: #080808;
   background-color: transparent;
   margin-bottom: 1.5em;
 }
@@ -1167,8 +1167,8 @@ label.error{
 }
 
 .rev_slider .btn{
-  -webkit-transition: background-color .4s ease-out!important;
-          transition: background-color .4s ease-out!important;
+  -webkit-transition: background-color .3s ease-out!important;
+          transition: background-color .3s ease-out!important;
 }
 
 .tp-caption{
@@ -1305,7 +1305,7 @@ label.error{
 
 
 .bg-about{
-  background: url(../img/bg/about-us-banner-02\ \(1\).jpg) 50% 0 no-repeat;
+  background: url(../img/bg/about.jpg) 50% 0 no-repeat;
   background-size: cover;
 }
 
@@ -2226,7 +2226,7 @@ img.mfp-img{
 
 
 .bg-contacts{
-  background: url(../img/bg/contacy-us-01.jpg) 100% 0 no-repeat;
+  background: url(../img/bg/contacts.jpg) 50% 0 no-repeat;
   background-size: cover;
 }
 
@@ -2699,16 +2699,9 @@ img.mfp-img{
 
 } */
 
-.rev_slider_wrapper{
-  margin-bottom: 30px;
-}
-#marquee{
-  height: 100px;
-  width: 100px;
-}
 
 
- /*  */
+ 
 
 }
 
