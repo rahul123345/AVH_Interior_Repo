@@ -50,7 +50,7 @@
     <header id="top" class="header-inner">
       <div class="brand-panel pt-0">
 
-        <div  style="box-sizing: border-box; width: 150px;height: 150px;  padding-top: 5px; justify-content: center;align-items: center; ">
+        <div  style="box-sizing: border-box; width: 150px;height: 150px;   padding-top: 5px; justify-content: center;align-items: center; ">
           <img src="img/slider/avhindia (1).png" style="object-fit: contain;height: 80%;width: 100%;" alt="img">
 
         </div>
@@ -79,7 +79,7 @@
       <nav class="navbar-desctop visible-md visible-lg">
         <div class="container">
           <a href="#top" class="brand js-target-scroll">
-            <img src="img/slider/avhindia (1)-2.png" width="150px" height="50px" alt="">
+            <img src="img/slider/avhindia (1)-2.png" width="100px" height="50px" alt="">
           </a>
           <ul class="navbar-desctop-menu">
             <li class="active">
@@ -217,11 +217,11 @@
 
             <!-- Slide 1 -->
 
-            <li  data-transition="slotzoom-horizontal" data-slotamount="7" data-masterspeed="1000" data-fsmasterspeed="1000">
+            <li data-transition="slotzoom-horizontal" data-slotamount="7" data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="1000">
 
-              <!-- Main image-->
+              <!-- Main image -->
 
-              <img src="img/home-page/IT.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg">
+              <img  src="img/slide1.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg">
 
               <!-- Layer 1 -->
               
@@ -242,7 +242,7 @@
               data-splitin="chars" 
               data-splitout="none" 
               data-responsive_offset="on" 
-              data-elementdelay="0.1">
+              data-elementdelay="0.05">
            <span class="line1">Premium Professional</span><br>
            <span class="line2">Workspaces for Rent</span>
          </div>
@@ -295,7 +295,7 @@
 
               <!-- Main image -->
 
-              <img src="img/home-page/hospital1.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg">
+              <img src="img/slide11.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg">
 
               <!-- Layer 1 -->
 
@@ -368,7 +368,7 @@
 
               <!-- Main image-->
 
-              <img src="img/home-page/hospital image 1.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg">
+              <img src="img/slide2.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg">
 
               <!-- Layer 1 -->
 
@@ -685,7 +685,7 @@
               </div>
               <div class="clearfix visible-sm"></div>
               <div class="col-base col-about-img col-sm-6 col-md-4">
-                <img alt="" class="img-responsive" src="img/380x370.jpg">
+                <img alt="" class="img-responsive" src="img/home-page/image2.png">
               </div>
             </div>
           </div>
@@ -858,7 +858,39 @@
             <strong class="fade-title-left">clients</strong>
             <h2 class=""></h2>
           </header>
-          <div class="section-content">
+          <div class="marquee-container" id="marqueeContainer">
+            <div style="display: flex;" class="marquee" id="marquee">
+                <div  class="block">
+                  <img src="img/slider/google.png" alt="Image 1">
+                </div>
+                <div  class="block">
+                  <img src="img/slider/google.png" alt="Image 1">
+                </div>
+                <div  class="block">
+                  <img src="img/slider/google.png" alt="Image 1">
+                </div>
+                <div  class="block">
+                  <img src="img/slider/google.png" alt="Image 1">
+                </div>
+                <div  class="block">
+                  <img src="img/slider/google.png" alt="Image 1">
+                </div>
+                <div  class="block">
+                  <img src="img/slider/google.png" alt="Image 1">
+                </div>
+                <div  class="block">
+                  <img src="img/slider/google.png" alt="Image 1">
+                </div>
+                <div  class="block">
+                  <img src="img/slider/google.png" alt="Image 1">
+                </div>
+                <div style="background-color: gray;" class="block">
+                  <img style="height: 50px;width: 50px;" src="img/slider/google.png" alt="Image 1">
+                </div>
+            </div>
+        </div>
+        
+          <!-- <div class="section-content">
             <ul class="clients-list">
               <li class="client">
                 <a href="#"><img alt="" src="img/clients/1.png"></a>
@@ -891,9 +923,6 @@
                 <a href="#"><img alt="" src="img/clients/5.png"></a>
               </li>
             </ul>
-          </div>
-          <!-- <div class="section-content">
-            <a href="#" class="btn btn-shadow-2">Work together <i class="icon-next"></i></a>
           </div> -->
         </div>
       </section>
@@ -1026,5 +1055,6 @@
 <script src="js/revolution/extensions/revolution.extension.slideanims.min.js"></script>
 <script src="js/revolution/extensions/revolution.extension.video.min.js"></script>
 <script src="js/interface.js"></script> 
+<script src="js/SLIDER.JS"></script>
 </body>
 </html>
