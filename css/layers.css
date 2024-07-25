@@ -5805,7 +5805,6 @@ tp-caption.Team-Thumb,
 }
 
 
-.slide-title,
-.slide-subtitle {
-	text-align: right !important;
+.slide-title .slide-subtitle{
+	text-align: center !important;
 }

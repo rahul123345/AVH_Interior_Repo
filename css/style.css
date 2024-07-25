@@ -811,6 +811,8 @@ label.error{
   left:0;
   width: 100%;
   padding:5.9vmin 0 0;
+  background-color: gray;
+  opacity: 0.5;
   /* background-color: blanchedalmond; */
 }
 
@@ -855,9 +857,10 @@ label.error{
 }
 
 .navbar-desctop-menu > li > a{
-  color: #080808;
+  color: whitesmoke;
   background-color: transparent;
   margin-bottom: 1.5em;
+  
 }
 
 .navbar-desctop-menu li ul{
@@ -1305,7 +1308,7 @@ label.error{
 
 
 .bg-about{
-  background: url(../img/bg/about.jpg) 50% 0 no-repeat;
+  background: url(../img/bg/about123.jpg) 50% 0 no-repeat;
   background-size: cover;
 }
 
@@ -1489,7 +1492,7 @@ label.error{
 
 .bg-projects{
   position: relative;
-  background:url(../img/bg/projects.jpg) 50% 0 no-repeat;
+  background:url(../img/bg/projects12.jpg) 50% 0 no-repeat;
   background-size: cover;
 }
 .projects{
@@ -2226,7 +2229,7 @@ img.mfp-img{
 
 
 .bg-contacts{
-  background: url(../img/bg/contacts.jpg) 50% 0 no-repeat;
+  background: url(../img/bg/contact.jpg) 50% 0 no-repeat;
   background-size: cover;
 }
 
