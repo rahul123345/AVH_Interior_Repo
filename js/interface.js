@@ -298,6 +298,25 @@
 
 
 
+
+
+	$(document).ready(function() {
+		$("#rev_slider").revolution({
+			sliderType: "standard",
+			sliderLayout: "auto",
+			delay: 9000,
+			navigation: {
+				arrows: { enable: true }
+			},
+			gridwidth: [1440, 1280, 778, 480],
+			gridheight: [720, 600, 500, 400],
+			responsiveLevels: [4096, 1024, 778, 480]
+		});
+	});
+	
+
+
+
 	/*-------------------------------------------------------------------------------
 	  Ajax Form
 	-------------------------------------------------------------------------------*/

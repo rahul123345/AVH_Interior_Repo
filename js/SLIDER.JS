@@ -2,7 +2,7 @@ const marquee = document.getElementById('marquee');
 const marqueeContainer = document.getElementById('marqueeContainer');
 let isMovingLeft = true;
 let position = 0;
-const speed = 2; // pixels per frame
+const speed = 1; // pixels per frame
 const blockCount = 15;
 const blockWidth = 50; // 100px width + 20px margin
 
