@@ -317,8 +317,10 @@ label.error{
   display: inline-block;
   border:0.2em solid #c5a47e;
   border-radius: 30px;
-  padding:1.1em 2.2em 1.05em;
+  /* padding:1.1em 2.2em 1em; */
   font-size: 0.875em;
+  align-items:center ;
+
   color:#fff;
   margin-top: 100px!important;
   letter-spacing: 0.15em;
@@ -1235,7 +1237,7 @@ label.error{
   z-index: 2;
   color: #fff;
   text-align: right;
-  padding-left: 38.5vmin;
+  padding-left: 32.5vmin;
 }
 
 .main-header h1{
@@ -1353,10 +1355,10 @@ label.error{
 
 .slide-title{
   font-family:  sans-serif;
-  font-size: 20px;
+  
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  margin-left: 150px!important;
+  margin-left: 140px!important;
   font-weight: 600;
    /* text-align: center; */
    /* margin-top: 170px; */
@@ -1393,10 +1395,10 @@ label.error{
 .slide-subtitle{
   line-height: 1.4!important;
   color: fff;
- text-align: center;
+ 
   font-weight: 400px;
-  padding-left: 140px!important;
-  padding-top: 60px!important;
+  margin-left: 200px!important;
+  padding-top: 80px!important;
   /* margin-top: 150px; */
  
   
@@ -1415,7 +1417,7 @@ label.error{
 .slide-subtitle2{
   padding-top: 15px !important;
   font-weight: 400px;
-  padding-left: 130px!important;
+  padding-left: 190px!important;
 
   line-height: 1.4 !important;
   /* margin-top: 150px; */
@@ -1424,10 +1426,10 @@ label.error{
   padding-left: 100px!important;
 }
 .slide-subtitle3{
-  padding-top: 60px !important;
+  padding-top: 80px !important;
   font-weight: 400px;
   line-height: 1.4 !important;
-  padding-left: 130px!important;
+  padding-left: 180px!important;
   /* margin-top: 150px; */
 
 }
@@ -1637,7 +1639,7 @@ label.error{
   background-size: cover;
 }
 .projects{
-  padding-top: 80px;
+  padding-top: 10px;
 }
 
 
@@ -2183,12 +2185,8 @@ img.mfp-img{
   }
 }
 
-/* Media query to adjust image size on small screens */
-@media (max-width: 479px) {
-  .clients-list1 img {
-      height: 30px; /* Adjust the size of the images as needed */
-  }
-}
+
+
 
 
 
@@ -2915,6 +2913,7 @@ img.mfp-img{
   .sec{
     padding-top: 80px;
   }
+}
   /* body {
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
@@ -2932,26 +2931,239 @@ img.mfp-img{
  }
 }
 
+
+
 @media screen and (max-width: 480px) {
-  .image-container {
-    width: 70px; /* Adjust width as needed */
-      height: 70px; /* Adjust height as needed */
-      padding-left: 0; /* Adjust padding as needed */
+  .slide-number{
+    display: none;
   }
-  .responsive-image {
-      height: 70%; /* Adjust height as needed */
-      width: 70%; /* Adjust width as needed */
-  }
-}
-
-
-
-
-
-
-
  
-
 }
+
+
+
+@media screen and (max-width: 480px) {
+  .responsive-image{
+    height: 80px!important;
+    width: 80px!important;
+  }
+ 
+}
+
+
+
+@media screen and (max-width: 480px) {
+ .image-container{
+  padding-left: 0px!important;
+  height: 10px!important;
+  width: 10px!important;
+ }
+ 
+}
+
+ @media screen and (max-width: 480px) {
+  .brand-panel{
+    height: 90px;
+    width: 90px;
+  }
+ 
+} 
+
+.responsive-image{
+  object-fit: contain;
+   height: 140px;
+    width: 140px;
+}
+.image-container{
+  box-sizing: border-box; 
+  width: 170px; 
+  height: 170px; 
+  padding-left: 20px; 
+  justify-content: center; 
+  align-items: center;
+}
+
+
+@media screen and (max-width: 480px) {
+  .btn{
+    display: none;
+  }
+ 
+}
+
+
+
+
+
+
+@media (max-width: 479px) {
+  .slide-container {
+      display: none;
+  }
+}
+@media (max-width: 479px) {
+.slide-subtitle.tp-caption.tp-resizeme{
+  visibility: hidden!important;
+}
+}
+@media (max-width: 479px) {
+  .slide-subtitle3.tp-caption.tp-resizeme{
+    visibility: hidden!important;
+  }
+  }
+  @media (max-width: 479px) {
+    .slide-subtitle4.tp-caption.tp-resizeme{
+      visibility: hidden!important;
+    }
+    }
+    @media (max-width: 479px) {
+      .slide-subtitle2.tp-caption.tp-resizeme{
+        visibility: hidden!important;
+      }
+      }
+
+
+      @media (max-width: 479px) {
+        .arrow-left{
+          left: 15px;
+        }
+        }
+
+        @media (max-width: 768px) {
+          .mainsec {
+              flex-direction: column;
+              align-items: center;
+          }
+      
+          .flip-card {
+              width: 90%;
+              margin-bottom: 20px;
+              height: 200px;
+              width: 300px;
+          }
+      }
+
+        /* .mainsec {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          
+          margin: 0;
+          background-color:#fff;
+      }
+      
+      .flip-card {
+          background-color: transparent;
+          padding: 20px;
+          width: 400px;
+          height: 250px;
+          perspective: 1000px; 
+      }
+
+      
+      .flip-card-inner {
+          position: relative;
+          width: 100%;
+          height: 100%;
+          text-align: center;
+          transition: transform 0.6s;
+          transform-style: preserve-3d;
+          box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      }
+      
+      .flip-card:hover .flip-card-inner {
+          transform: rotateX(180deg);
+      }
+      
+      .flip-card-front, .flip-card-back {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          backface-visibility: hidden;
+      }
+      
+      .flip-card-front {
+          background-color: #bbb;
+          color: black;
+      }
+      
+      .flip-card-back {
+          background:linear-gradient(skyblue,white);
+          color: black;
+          padding: 15px;
+          transform: rotateX(180deg);
+      }
+
+      .steps{
+        font-size: 25px;
+        font-weight: 700;
+      } */
+
+
+      .mainsec {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+    }
+    
+    .flip-card {
+        background-color: transparent;
+        width: 300px;
+        height: 200px;
+        perspective: 1000px;
+        overflow: hidden; /* To hide the overflowing content during the slide down */
+        position: relative;
+    }
+    
+    .flip-card-inner {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    
+    .flip-card-front, .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .flip-card-front {
+        background-color: #bbb;
+        color: black;
+        z-index: 2;
+    }
+    
+    .flip-card-back {
+        background-color: #eab676;
+        color: white;
+        transform: translateY(100%);
+        transition: transform 0.6s ease-in-out;
+        padding: 10px;
+        z-index: 1;
+    }
+    
+    .flip-card:hover .flip-card-back {
+        transform: translateY(0);
+        z-index: 2;
+    }
+    
+    .steps {
+        font-size: 1.2em;
+        font-weight: 400;
+    }
+    
+
+
+
+
+
 
 
