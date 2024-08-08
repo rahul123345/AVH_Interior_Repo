@@ -92,6 +92,7 @@ body{
   font-size: 1em;
   line-height: 1.65;
   color: #747474;
+  
 }
 
 ::-webkit-scrollbar{
@@ -141,6 +142,14 @@ body{
 
 }
 
+@font-face {
+  font-family: 'POPPIN';
+  src: url('../fonts/montserrat/Montserrat-SemiBold.ttf');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 h1,
 .h1{ 
   font-family:  sans-serif;
@@ -161,6 +170,11 @@ h2,
   text-transform: uppercase;
   color: #3d3d3d;
 }
+/* @media(max-width:479px){
+  .h2{
+    font-size: 1.5em;
+  }
+} */
 
 h3,
 .h3{
@@ -322,13 +336,13 @@ label.error{
   align-items:center ;
 
   color:#fff;
-  margin-top: 100px!important;
+  margin-top: 50px!important;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   text-decoration: none;
   background-color: #c5a47e;
   border:0;
-  margin-left: 43%;
+  /* margin-left: 43%; */
   -webkit-transition: all .3s ease-out!important;
           transition: all .3s ease-out!important;
 }
@@ -573,7 +587,13 @@ label.error{
 .section-title{
   text-align: center;
   margin:0;
+
   margin-left: 0.4em;
+}
+@media(max-width:479px){
+  .section-title{
+    font-size: 1.5em;
+  }
 }
 
 .fade-title-left,
@@ -614,6 +634,12 @@ label.error{
   top:12.2vmin;
   
 }
+@media(max-width:479px){
+  .header-inner .vertical-panel-content{
+    top:28.2vmin;
+  }
+}
+
 
 
 
@@ -753,6 +779,7 @@ label.error{
   font-size: 8vmin;
   letter-spacing: 0.1em;
   line-height: 1;
+  color:#c5a47e
 }
 
 .slide-number sup{
@@ -865,10 +892,16 @@ label.error{
     display: none;
   }
 }
+@media (max-width: 479px) {
+  .social-list{
+    margin-top:13rem!important; ;
+  }
+  }
 
 .social-list{
   margin-bottom: 3.5vmin;
   margin-top: 50%;
+  margin-left: -45px;
 }
 
 .social-list li{
@@ -878,6 +911,12 @@ label.error{
 .social-list .fa{
   font-size: 2.4vmin;
   color: #c5c4c2;
+}
+@media (max-width: 479px) {
+  .social-list .fa {
+    font-size: 25px; /* Increase size on medium screens */
+    color: #c5a47e;
+  }
 }
 
 .social-list .fa:hover{
@@ -928,10 +967,11 @@ label.error{
   float: right;
   font-family:  sans-serif;
   font-weight: 300;
+
   font-size: 0.81em;
   letter-spacing: 0.32em;
   text-transform: uppercase;
-  padding:5.9vmin 0 0;
+  padding:5vmin 0 0;
 
   margin-bottom: 0;
   
@@ -1237,7 +1277,7 @@ label.error{
   z-index: 2;
   color: #fff;
   text-align: right;
-  padding-left: 32.5vmin;
+  /* padding-left: 32.5vmin; */
 }
 
 .main-header h1{
@@ -1245,6 +1285,13 @@ label.error{
   margin:0;
   margin-right: -0.32em;
 }
+@media screen and (max-width: 480px) {
+  .main-header h1{
+    margin-right: 1.68em;
+  }
+ 
+}
+
 
 .main-inner .page-lines{
   z-index: 1;
@@ -1293,6 +1340,13 @@ label.error{
   transition: all 0.3s;
 }
 
+@media(max-width:479px){
+  .arrow-left,
+.arrow-right{
+  bottom:24vh;
+}
+
+}
 .arrow-left{
   left: 22vmin;
 }
@@ -1358,7 +1412,7 @@ label.error{
   
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  margin-left: 140px!important;
+  margin-left: 150px!important;
   font-weight: 600;
    /* text-align: center; */
    /* margin-top: 170px; */
@@ -1397,8 +1451,8 @@ label.error{
   color: fff;
  
   font-weight: 400px;
-  margin-left: 200px!important;
-  padding-top: 80px!important;
+  margin-left: 300px!important;
+  padding-top: 70px!important;
   /* margin-top: 150px; */
  
   
@@ -1456,20 +1510,34 @@ label.error{
 }
 
 .entry{
-  margin:1em 0;
+  margin-top:-3em ;
 }
 
 .entry-title{
-  font-size: 2.8em;
+  font-size: 2.6em;
   margin:0 0 1em;
   padding-left: 130px;
 }
+@media(max-width:479px){
+  .entry-title{
+  font-size: 1.4em;
+    margin: 0 0 1em;
+    padding-left: 72px;
+  }
+}
 
 .entry-title1{
-  font-size: 2.8em;
+  font-size: 2.6em;
   margin:0 0 1em;
   padding-left: 130px;
   color: #00699e;
+}
+@media(max-width:479px){
+  .entry-title1{
+  font-size: 1.5em;
+    margin: 0 0 1em;
+    padding-left: 50px;
+  }
 }
 .ent{
   padding-left: 30px;
@@ -2116,6 +2184,7 @@ img.mfp-img{
   white-space: nowrap;
   box-sizing: border-box;
   width: 100%;
+  animation: marquee 30s linear infinite ;
 }
 
 
@@ -2125,7 +2194,7 @@ img.mfp-img{
   margin: 0;
   list-style:none;
   
-  animation: marquee 30s linear infinite 1s;
+  /* animation: marquee 30s linear infinite ; */
 }
 
 .client {
@@ -2156,6 +2225,7 @@ img.mfp-img{
   white-space: nowrap;
   box-sizing: border-box;
   width: 100%;
+  animation: marquee-reverse 30s linear infinite ;
 }
 
 .clients-list1 {
@@ -2163,7 +2233,7 @@ img.mfp-img{
   padding: 0;
   margin: 0;
   list-style: none;
-  animation: marquee-reverse 30s linear infinite 1s;
+  /* animation: marquee-reverse 30s linear infinite ; */
 }
 
 .client1 {
@@ -2479,7 +2549,7 @@ img.mfp-img{
 }
 
 .form-submit{
-  margin-top: 1.6em;
+  margin-top: -1.6em;
 }
 
 .success-message{
@@ -2512,7 +2582,14 @@ img.mfp-img{
   right: 0;
   padding: 0;
   height: 100%;
+  padding-left: 15em;
 }
+@media(max-width:768px){
+  .gmap{
+  padding-left: 0rem;
+}
+}
+
 
 .map-info{
   padding: 1.2em;
@@ -2986,7 +3063,14 @@ img.mfp-img{
 
 @media screen and (max-width: 480px) {
   .btn{
-    display: none;
+    align-items: center;
+    margin-right: 80px!important;
+    margin-top: 20px!important;
+    font-size: 1.2em!important;
+    
+    /* margin-right: -8px !important;
+    margin-top: -37px !important;
+    font-size: 1.2em !important; */
   }
  
 }
@@ -3033,6 +3117,7 @@ img.mfp-img{
           .mainsec {
               flex-direction: column;
               align-items: center;
+              
           }
       
           .flip-card {
@@ -3043,7 +3128,7 @@ img.mfp-img{
           }
       }
 
-        /* .mainsec {
+         .mainsec {
           display: flex;
           justify-content: center;
           align-items: center;
@@ -3056,9 +3141,11 @@ img.mfp-img{
           background-color: transparent;
           padding: 20px;
           width: 400px;
+          /* border-radius: 20px; */
           height: 250px;
           perspective: 1000px; 
       }
+     
 
       
       .flip-card-inner {
@@ -3080,6 +3167,13 @@ img.mfp-img{
           width: 100%;
           height: 100%;
           backface-visibility: hidden;
+          font-family: POPPINS;
+          
+      }
+
+      @font-face {
+        font-family: poppins;
+        src: url(../fonts/poppins/Poppins.ttf);
       }
       
       .flip-card-front {
@@ -3088,7 +3182,7 @@ img.mfp-img{
       }
       
       .flip-card-back {
-          background:linear-gradient(skyblue,white);
+          background:linear-gradient(white);
           color: black;
           padding: 15px;
           transform: rotateX(180deg);
@@ -3097,10 +3191,10 @@ img.mfp-img{
       .steps{
         font-size: 25px;
         font-weight: 700;
-      } */
+      } 
 
 
-      .mainsec {
+      /* .mainsec {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -3113,7 +3207,7 @@ img.mfp-img{
         width: 300px;
         height: 200px;
         perspective: 1000px;
-        overflow: hidden; /* To hide the overflowing content during the slide down */
+        overflow: hidden; 
         position: relative;
     }
     
@@ -3158,7 +3252,7 @@ img.mfp-img{
     .steps {
         font-size: 1.2em;
         font-weight: 400;
-    }
+    } */
     
 
 
